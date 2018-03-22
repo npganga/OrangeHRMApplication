@@ -9,7 +9,7 @@ import org.testng.Assert;
 
 public class FullProgram {
 	
-    public  String url = "http://opensource.demo.orangehrmlive.com/index.php/auth/login";
+    public String url = "http://opensource.demo.orangehrmlive.com/index.php/auth/login";
     
     public String expectedTitle="OrangeHRM";
     

@@ -13,7 +13,7 @@ public class FullProgramTest {
   public void start() {
 		 System.setProperty("webdriver.chrome.driver","C:\\Chrome\\chromedriver.exe");	
 		 driver= new ChromeDriver();
-	     driver.get(fp.url);
+	     driver.navigate().to(fp.url);;
   }
   @Test(priority=1)
   public void checkInfo() throws InterruptedException {
